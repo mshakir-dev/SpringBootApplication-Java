@@ -20,5 +20,4 @@ public class TopicBusinessService {
 		return topics;
 	}
 	
-	//	private static String generateRandomId() { return RandomStringUtils.randomNumeric(8); }
 }
