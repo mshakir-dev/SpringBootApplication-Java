@@ -23,5 +23,9 @@ public class TopicBusinessService {
 	public Topic getTopic (String id) {
 		return topics.stream().filter(topic -> topic.getId().equals(id)).findFirst().get();
 	}
+
+	public void addTopicItem(Topic topic) {
+		topics.add(topic);
+	}
 	
 }
