@@ -6,3 +6,5 @@ It sets up the default configuration and Starts spring application context. It p
 
 @RequestMapping
 The ``` @RequestMapping ``` maps only to the GET method by default. To map other HTTP methods. We will have to specify it in the annotation.
+
+Starter for building web, including RESTful, applications using Spring MVC. Uses Tomcat as the default embedded container
